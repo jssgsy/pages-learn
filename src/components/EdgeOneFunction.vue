@@ -5,7 +5,7 @@ import axios from "axios";
 
 async function callFn() {
   console.log("------callFn()");
-  let rsp = await axios.get('/helloword');
+  let rsp = await axios.get('/api/helloword');
   console.log(rsp, 'rsp');
 
 }
